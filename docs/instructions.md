@@ -15,7 +15,7 @@
 To get into the `phoenixd` service and start using it with `phoenix-cli`, you need to SSH into your StartOS and run the following command:
 
 ```sh
-sudo podman exec -it phoenixd.embassy bash
+start-cli package attach phoenixd
 ```
 
 **Using `phoenix-cli` to interact with the daemon**
