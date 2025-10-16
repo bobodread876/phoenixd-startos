@@ -29,11 +29,12 @@ const configureLiquiditySpec = InputSpec.of({
     name: 'Max Fee Credit',
     description:
       'Maximum fee credit. If reached, payments will be rejected. This protects you from accumulating too many fees.',
-    default: '100k',
+    default: '50k',
     values: {
       off: 'Off (No limit)',
       '50k': '50,000 sats (50k)',
-      '100k': '100,000 sats (100k)',
+      '125k': '125,000 sats (125k)',
+      '250k': '250,000 sats (250k)',
     },
   }),
 })

@@ -20,7 +20,7 @@ const shape = object({
     defaults['auto-liquidity'],
   ),
   'max-absolute-fee': number.optional(),
-  'max-fee-credit': literals('off', '50k', '100k').optional(),
+  'max-fee-credit': literals('off', '50k', '125k', '250k').optional(),
 
   // HTTP API
   'http-bind-ip': string.onMismatch(defaults['http-bind-ip']),
