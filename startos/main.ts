@@ -15,8 +15,8 @@ export const main = sdk.setupMain(async ({ effects, started }) => {
     { imageId: 'phoenixd' },
     sdk.Mounts.of().mountVolume({
       volumeId: 'main',
-      subpath: 'phoenixd-data',
-      mountpoint: '/data',
+      subpath: null,
+      mountpoint: '/root/.phoenix',
       readonly: false,
     }),
     'phoenixd-sub',
@@ -38,7 +38,7 @@ export const main = sdk.setupMain(async ({ effects, started }) => {
         '0.0.0.0',
       ],
       env: {
-        HOME: '/phoenix',
+        HOME: '/root',
       },
     },
     ready: {

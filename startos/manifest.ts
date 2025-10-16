@@ -25,7 +25,7 @@ export const manifest = setupManifest({
   volumes: ['main'],
   images: {
     phoenixd: {
-      source: { dockerTag: 'acinq/phoenixd:0.6.3' },
+      source: { dockerBuild: { dockerfile: 'Dockerfile' } },
       arch: architectures,
     } as SDKImageInputSpec,
   },
