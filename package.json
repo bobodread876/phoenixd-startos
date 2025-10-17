@@ -10,13 +10,13 @@
     "bitcoind-startos": "git+https://github.com/Start9Labs/bitcoind-startos.git#update/040",
     "rfc4648": "1.5.4",
     "js-yaml": "^4.1.0",
-    "mime": "^4.0.7"
+    "mime": "^4.1.0"
   },
   "devDependencies": {
-    "@types/node": "^22.1.0",
-    "@vercel/ncc": "^0.38.1",
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.3"
+    "@types/node": "^22.18.11",
+    "@vercel/ncc": "^0.38.4",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
   },
   "prettier": {
     "trailingComma": "all",
