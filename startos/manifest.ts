@@ -16,7 +16,7 @@ export const manifest = setupManifest({
   marketingSite: 'https://phoenix.acinq.co/server',
   donationUrl: 'https://phoenix.acinq.co',
   docsUrl:
-    'https://github.com/Start9Labs/phoenixd-startos/blob/master/instructions.md',
+    'https://github.com/Start9Labs/phoenixd-startos/blob/update/040/docs/README.md',
   description: {
     short:
       'phoenixd for StartOS is a minimal, specialized Lightning node designed for sending and receiving Lightning payments',
