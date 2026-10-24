@@ -63,5 +63,3 @@ make install
 ## Verify Install
 
 Go to your StartOS Services page, select **phoenixd** and start the service.
-
-**Done!**
